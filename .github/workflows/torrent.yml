@@ -5,11 +5,11 @@ on:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  name: "setup_smart64_113.msi"
+  comment: "MSI 64 bit versiune 1.1.3"
+  url: "https://www.smartvalidator.ro/ftp_smartvalidator/update/Smart/setup_smart64_113.msi"
+  file_name: "setup_smart64_113.msi"
+  piece_size: 256 # Check the README.md for recommended piece size
       
 jobs:
   create:
